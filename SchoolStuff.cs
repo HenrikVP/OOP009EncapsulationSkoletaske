@@ -10,10 +10,10 @@
     internal class Skoletaske : SchoolStuff
     {
         public Penalhus Penalhus { get; set; }
-        public List<Bøger> Booklist { get; set; }
+        public List<Bog> Booklist { get; set; }
         public Madkasse FoodBox { get; set; }
     }
-    internal class Bøger : SchoolStuff
+    internal class Bog : SchoolStuff
     {
         public string Author { get; set; }
     }
